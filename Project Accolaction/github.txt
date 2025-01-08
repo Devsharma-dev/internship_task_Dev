@@ -1,0 +1,65 @@
+- GitHub.
+
+
+- Git?
+     :- distributed version control system 
+     :- designed to handle everything from small to very large project.
+
+- Version Control
+     :- manage the different version of your project, 
+     :- allow you to keep a history of your work,
+     :- collaborate with others.  	
+
+- features
+     :- Distributed version control system.
+     :- Branching and  marging
+     :- Commit histroy
+     :- Efficient handling large project.
+
+
+- GitHub?
+ Web based plateform .
+ that uses Git for version control
+ provided additional features features for collebration.
+
+- features
+   :- Remote Repository Hosting
+   :- Collaborative tools
+	* Pull Requests
+	* Issues
+ 
+
+
+-> How to add existing project into github.
+
+DELL@DESKTOP-8KTDM9I MINGW64 ~/Desktop/python/Numpy_Panda.np/NumpyNewSession/27-11to09-12/github (master)
+
+-> $ git init
+Reinitialized existing Git repository in C:/Users/DELL/Desktop/python/Numpy_Pand
+a.np/NumpyNewSession/27-11to09-12/github/.git/
+
+DELL@DESKTOP-8KTDM9I MINGW64 ~/Desktop/python/Numpy_Panda.np/NumpyNewSession/27-11to09-12/github (master)
+$ git add .
+
+DELL@DESKTOP-8KTDM9I MINGW64 ~/Desktop/python/Numpy_Panda.np/NumpyNewSession/27-11to09-12/github (master)
+-> $  git commit -m "first_github_project"
+[master (root-commit) 825df18] first_github_project
+ 1 file changed, 58 insertions(+)
+ create mode 100644 first_class.py
+
+DELL@DESKTOP-8KTDM9I MINGW64 ~/Desktop/python/Numpy_Panda.np/NumpyNewSession/27-11to09-12/github (master)
+$ git remote add origin https://github.com/officialsachuyadav1/all.git
+
+DELL@DESKTOP-8KTDM9I MINGW64 ~/Desktop/python/Numpy_Panda.np/NumpyNewSession/27-11to09-12/github (master)
+$ git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.04 KiB | 356.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/officialsachuyadav1/all.git
+ * [new branch]      master -> master
+
+DELL@DESKTOP-8KTDM9I MINGW64 ~/Desktop/python/Numpy_Panda.np/NumpyNewSession/27-11to09-12/github (master)
